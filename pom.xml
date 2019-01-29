@@ -6,7 +6,12 @@
 
   <groupId>fil.car</groupId>
   <artifactId>compteurpara</artifactId>
+  <packaging>pom</packaging>
   <version>1.0</version>
+  <modules>
+    <module>sequentiel</module>
+    <module>multithread</module>
+  </modules>
 
   <name>compteurpara</name>
   <!-- FIXME change it to the project's website -->
